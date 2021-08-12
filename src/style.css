@@ -1,0 +1,92 @@
+h1{
+  text-align: center;
+ }
+ h2{
+  font-size: 15pt;
+ }
+
+ button{
+  font-size: 18px;
+  background-color: darkcyan;
+  padding: 8px 16px;
+  border: none;
+  color: white;
+  margin-right: 5px;
+ }
+ .complete{
+  font-size: 18px;
+  background-color: rgb(10, 77, 38);
+  padding: 8px 16px;
+  border: none;
+  color: white;
+  position: relative;
+  bottom:38px;
+  right: 400px;
+
+ }
+ .complete1{
+  font-size: 18px;
+  background-color: rgb(10, 77, 38);
+  padding: 8px 16px;
+  border: none;
+  color: white;
+  position: relative;
+  bottom:37px;
+  left: 102px;
+   
+
+ }
+
+ form{
+   display:flex;
+   flex-direction: column;
+
+ }
+
+ input{
+font-size: 20px;
+padding: 4px 8px;
+flex-grow: 1;
+margin: 10px;
+
+ }
+
+ .todo{
+   width: 500px;
+   margin: 60px auto;
+ }
+
+ .list-style{
+  display: flex;
+  flex-direction: column;
+}
+
+.button-style{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.todo-style{
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  flex-grow: 1;
+}
+
+.todo-style{
+  flex-direction: column;
+  display: flex;
+  border: 1px solid #ddd;
+}
+li{
+  font-size: 20pt;
+  position: relative;
+  bottom: 450px;
+  left: 250px;
+  color: black;
+  display: flex;
+}
+.fontN{
+  font-size: 15pt;
+}
